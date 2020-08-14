@@ -1,0 +1,6 @@
+python deep_learning_object_detection.py \
+	--prototxt MobileNetSSD_deploy.prototxt.txt \
+	--model MobileNetSSD_deploy.caffemodel --image images/example_06.jpg 
+	
+The list of things that we can detect from this Object detection code
+-We can therefore detect 20 objects in images (+1 for the background class), including airplanes, bicycles, birds, boats, bottles, buses, cars, cats, chairs, cows, dining tables, dogs, horses, motorbikes, people, potted plants, sheep, sofas, trains, and tv monitors.
